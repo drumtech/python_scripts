@@ -1,0 +1,6 @@
+name:type:content
+first-host.example.io:CNAME:app1-ws-us-region.ix
+second-host.example.io:CNAME:app2-ws-us-region.ix
+third-host.example.io:CNAME:app3-ws-us-region.ix
+fourth-host.example.io:CNAME:app4-ws-us-region.ix
+fifth-host.example.io:CNAME:app5-ws-us-region.ix
