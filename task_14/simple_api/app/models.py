@@ -12,11 +12,11 @@ class Server(models.Model):
 
 class AdditionalInformation(models.Model):
 
-    host_information = models.JSONField(default = {})
-    network = models.JSONField(default = {})
-    disk = models.JSONField(default = {})
-    memory = models.JSONField(default = {})
-    cpu = models.JSONField(default = {})
-    load_average = models.JSONField(default = {})
-    battery_charge_percentage = models.JSONField(default = {})
-    AC_power = models.JSONField(default = {})
+    host_information = models.JSONField(default = dict)
+    network = models.JSONField(default = dict)
+    disk = models.JSONField(default = dict)
+    memory = models.JSONField(default = dict)
+    cpu = models.JSONField(default = dict)
+    load_average = models.JSONField(default = dict)
+    battery_charge_percentage = models.JSONField(default = dict)
+    AC_power = models.JSONField(default = dict)
