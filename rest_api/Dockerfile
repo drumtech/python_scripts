@@ -2,8 +2,7 @@ FROM python:3.10
 ENV PYTHONUNBUFFERED 1
 ADD simple_api /simple_api
 WORKDIR /simple_api
-RUN ls -la;\
-    pip install --upgrade pip;\
+RUN pip install --upgrade pip;\
     pip install -r requirements.txt
 CMD ["manage.py", "runserver", "0.0.0.0:8000"]
 ENTRYPOINT ["/usr/local/bin/python"]
